@@ -1,0 +1,13 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ cowtest 3
+
+----- Test case 3 -----
+[prnt] v1 --> 16147
+kernel/kalloc.c@kalloc:79
+panic: assert failed
+qemu-system-riscv64: terminating on signal 2

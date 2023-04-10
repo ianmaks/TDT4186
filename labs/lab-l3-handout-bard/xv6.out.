@@ -1,0 +1,13 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ cowtest 2
+
+----- Test case 2 -----
+[prnt] v1 --> 16147
+kernel/kalloc.c@kalloc:79
+panic: assert failed
+qemu-system-riscv64: terminating on signal 15 from pid 77573 (make)
